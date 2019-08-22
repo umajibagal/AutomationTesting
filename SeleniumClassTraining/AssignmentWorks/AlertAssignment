@@ -1,0 +1,7 @@
+Go to https://the-internet.herokuapp.com/javascript_alerts
+  1. "Click for JS Alert" - click on this option, handle the alert, 
+      read the message and verify. Also verify the text displayed under Result is 
+      "You successfuly clicked an alert" and it is in green color.
+      Repeat same for other two buttons having different alerts
+ 2. go to http://www.cookbook.seleniumacademy.com/Alerts.html 
+ and handle all the three alerts and verify the messages on the home page. 

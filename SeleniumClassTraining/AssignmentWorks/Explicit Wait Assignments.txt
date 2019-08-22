@@ -1,0 +1,32 @@
+Explicit Wait
+Assigment 1:  In Yahoomail login, remove Thread.sleep and implict Wait and replace with explicit wait
+Assignment 2: Before Clicking on compose, remove Thread.sleep and replace with explicit wait
+Assignment 3: Yahoo Logout implementation
+Assignment 4: Why Implicit Wait should not be used with explict Wait - do google search
+Assignment 5: FluentWait in WebDriver - google search
+
+Assignment 6: Dynamic loading	
+First scenario
+1. http://the-internet.herokuapp.com/dynamic_loading/1
+2. Use implicit Wait - 3 sec
+3. Click on start button and verify Hello World!
+
+Second scenario
+1. http://the-internet.herokuapp.com/dynamic_loading/1
+2. Use implicit Wait - 15 sec
+3. Click on start button and verify Hello World!
+
+Third scenario
+1. http://the-internet.herokuapp.com/dynamic_loading/1
+2. No implicit Wait, No Explicit Wait
+3. Click on start button and verify Hello World!
+
+Fourth scenario
+1. http://the-internet.herokuapp.com/dynamic_loading/1
+2. Use Explicit Wait for 10 seconds
+3. Click on start button and verify Hello World!
+
+Repeat all the above 4 scenario for the following link:
+http://the-internet.herokuapp.com/dynamic_loading/2
+
+From now on - DO NOT use Thread.sleep or implicit Wait

@@ -1,0 +1,52 @@
+Assignment1  ( Do this after 27th July  )
+1. Go to google.com
+2. Click on Gmail link such that it opens in the same window in a new tab
+3. then login into Gmail.
+4. Come back to google.com tab and search on "jobs in Selenium"
+
+Assignment2
+go to http://cookbook.seleniumacademy.com/Config.html/ and try to switch 
+between multiple windows ("Help", "Online Chat Support" and "Visit US")
+
+Assignment3
+go to http://toolsqa.com/iframe-practice-page/iframe-practice page and switch between multiple frames
+
+
+Assignment4
+goto http://the-internet.herokuapp.com/frames and select the frames link and navigate between frames
+Navigate in nested frames. 
+
+Assignemnt5
+google the difference between frame and iframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
