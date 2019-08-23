@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3837" started-at="2019-08-23T17:39:16Z" finished-at="2019-08-23T17:39:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3837" started-at="2019-08-23T17:39:16Z" finished-at="2019-08-23T17:39:20Z">
+      <class name="com.nichethyself.testcases.LoginTestNT">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac]" name="setupSuite" is-config="true" duration-ms="614" started-at="2019-08-23T17:39:15Z" finished-at="2019-08-23T17:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac]" name="setup" is-config="true" duration-ms="3152" started-at="2019-08-23T17:39:16Z" finished-at="2019-08-23T17:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac]" name="loginApp" duration-ms="319" started-at="2019-08-23T17:39:19Z" finished-at="2019-08-23T17:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac]" name="tearDownMethod" is-config="true" duration-ms="252" started-at="2019-08-23T17:39:20Z" finished-at="2019-08-23T17:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestNT.loginApp()[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nichethyself.testcases.LoginTestNT@f6c48ac]" name="tearDown" is-config="true" duration-ms="74" started-at="2019-08-23T17:39:20Z" finished-at="2019-08-23T17:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nichethyself.testcases.LoginTestNT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
