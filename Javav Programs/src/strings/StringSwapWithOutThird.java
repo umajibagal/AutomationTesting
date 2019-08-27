@@ -1,3 +1,4 @@
+package strings;
 
 public class StringSwapWithOutThird {
 	public static void main(String[] args) {

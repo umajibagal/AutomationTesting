@@ -1,3 +1,4 @@
+package strings;
 import java.util.Arrays;
 
 public class SortString {

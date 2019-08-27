@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31878" started-at="2019-08-10T14:23:43Z" finished-at="2019-08-10T14:24:15Z">
+  <suite name="Default suite" duration-ms="1246" started-at="2019-08-25T07:23:04Z" finished-at="2019-08-25T07:23:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31878" started-at="2019-08-10T14:23:43Z" finished-at="2019-08-10T14:24:15Z">
-      <class name="assignments.AmazonTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:assignments.AmazonTest@6cc4c815]" name="beforeMethod" is-config="true" duration-ms="5306" started-at="2019-08-10T14:23:43Z" finished-at="2019-08-10T14:23:48Z">
+    <test name="Default test" duration-ms="1246" started-at="2019-08-25T07:23:04Z" finished-at="2019-08-25T07:23:06Z">
+      <class name="javascript.ScrollPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:javascript.ScrollPage@62ee68d8]" name="setup" is-config="true" duration-ms="1141" started-at="2019-08-25T07:23:04Z" finished-at="2019-08-25T07:23:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="amazonTest()[pri:0, instance:assignments.AmazonTest@6cc4c815]" name="amazonTest" duration-ms="26543" started-at="2019-08-10T14:23:48Z" finished-at="2019-08-10T14:24:15Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scrollPageTest()[pri:0, instance:javascript.ScrollPage@62ee68d8]" name="scrollPageTest" duration-ms="6" started-at="2019-08-25T07:23:06Z" finished-at="2019-08-25T07:23:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:assignments.AmazonTest@6cc4c815]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-08-10T14:24:15Z" finished-at="2019-08-10T14:24:15Z">
+        </test-method> <!-- scrollPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:javascript.ScrollPage@62ee68d8]" name="tearDown" is-config="true" duration-ms="71" started-at="2019-08-25T07:23:06Z" finished-at="2019-08-25T07:23:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- assignments.AmazonTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- javascript.ScrollPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

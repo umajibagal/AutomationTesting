@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gmailpo.GamilTest">
+      <class name="javascript.PageScroll">
         <methods>
-          <include name="afterMethod"/>
-          <include name="loginTest"/>
-          <include name="beforeMethod"/>
+          <include name="scrollPage"/>
         </methods>
-      </class> <!-- gmailpo.GamilTest -->
+      </class> <!-- javascript.PageScroll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

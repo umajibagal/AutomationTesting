@@ -16,3 +16,25 @@
 23-08-2019 23:22:06.530 INFO  BaseClass:49 - sucessfully loaded all browser confiration
 23-08-2019 23:22:06.592 INFO  LoginTestNT:19 - driver loaded sucessfully
 23-08-2019 23:22:06.832 INFO  LoginTestNT:24 - login sucessfully
+23-08-2019 23:42:04.713 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+23-08-2019 23:42:07.357 INFO  BaseClass:53 - sucessfully loaded all browser confiration
+23-08-2019 23:42:07.427 INFO  LoginTestNT:19 - driver loaded sucessfully
+23-08-2019 23:42:07.652 INFO  LoginTestNT:24 - login sucessfully
+23-08-2019 23:50:23.191 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+23-08-2019 23:50:25.958 INFO  BaseClass:55 - sucessfully loaded all browser confiration
+23-08-2019 23:50:26.034 INFO  LoginTestNT:19 - driver loaded sucessfully
+23-08-2019 23:50:26.421 INFO  LoginTestNT:24 - login sucessfully
+23-08-2019 23:56:32.026 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+23-08-2019 23:58:53.304 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+23-08-2019 23:59:00.406 INFO  BaseClass:55 - sucessfully loaded all browser confiration
+23-08-2019 23:59:00.464 INFO  LoginTestNT:19 - driver loaded sucessfully
+23-08-2019 23:59:00.696 INFO  LoginTestNT:24 - login sucessfully
+24-08-2019 00:00:11.603 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+24-08-2019 00:01:10.686 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+24-08-2019 00:01:52.260 INFO  BaseClass:55 - sucessfully loaded all browser confiration
+24-08-2019 00:01:52.333 INFO  LoginTestNT:19 - driver loaded sucessfully
+24-08-2019 00:02:11.790 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+24-08-2019 15:18:04.683 INFO  BrowserConfigDataProvider:22 - File loaded successfully
+24-08-2019 15:18:10.385 INFO  BaseClass:55 - sucessfully loaded all browser confiration
+24-08-2019 15:18:10.421 INFO  LoginTestNT:19 - driver loaded sucessfully
+24-08-2019 15:18:10.646 INFO  LoginTestNT:24 - login sucessfully

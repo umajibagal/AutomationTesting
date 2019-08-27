@@ -1,3 +1,4 @@
+package strings;
 
 public class CountOccuranceOfCharacters {
 	public static void main(String[] args) {
