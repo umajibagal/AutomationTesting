@@ -6,6 +6,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,8 @@ public class Helper {
 		
 		try {
 			FileHandler.copy(src, new File("./Screenshots/NT : "+getCurrentDateTime()+".png"));
+          //  FileUtils.copyFile(SrcFile, DestFile);
+
 			System.out.println("ScreenShhot captured successfully....");
 		} catch (IOException e) {
 			System.out.println("Unable to capture screenshot >> " + e.getMessage());
