@@ -23,6 +23,7 @@ public class DragAndDropTest {
 		driver.get("http://www.cookbook.seleniumacademy.com/DragDropDemo.html");
 		WebElement source = driver.findElement(By.id("draggable"));
 		WebElement target = driver.findElement(By.id("droppable"));
+		
 		Actions builder = new Actions(driver);
 		builder.dragAndDrop(source, target).perform();
 		builder.moveToElement(target).perform();
