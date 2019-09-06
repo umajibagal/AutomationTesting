@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29764" started-at="2019-08-17T03:30:16Z" finished-at="2019-08-17T03:30:46Z">
+  <suite name="Default suite" duration-ms="14236" started-at="2019-09-06T14:10:53Z" finished-at="2019-09-06T14:11:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29764" started-at="2019-08-17T03:30:16Z" finished-at="2019-08-17T03:30:46Z">
+    <test name="Default test" duration-ms="14236" started-at="2019-09-06T14:10:53Z" finished-at="2019-09-06T14:11:08Z">
       <class name="com.bagal.selenuim.BrokenLinks">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bagal.selenuim.BrokenLinks@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-08-17T03:30:16Z" finished-at="2019-08-17T03:30:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bagal.selenuim.BrokenLinks@4883b407]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2019-09-06T14:10:53Z" finished-at="2019-09-06T14:10:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="brokenLinkTest()[pri:0, instance:com.bagal.selenuim.BrokenLinks@3532ec19]" name="brokenLinkTest" duration-ms="29710" started-at="2019-08-17T03:30:16Z" finished-at="2019-08-17T03:30:46Z">
+        <test-method status="PASS" signature="brokenLinkTest()[pri:0, instance:com.bagal.selenuim.BrokenLinks@4883b407]" name="brokenLinkTest" duration-ms="14209" started-at="2019-09-06T14:10:53Z" finished-at="2019-09-06T14:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenLinkTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bagal.selenuim.BrokenLinks@3532ec19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-17T03:30:46Z" finished-at="2019-08-17T03:30:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bagal.selenuim.BrokenLinks@4883b407]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-09-06T14:11:08Z" finished-at="2019-09-06T14:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javascript.PageScroll">
+      <class name="scripts.FindAllGoogleLinks">
         <methods>
-          <include name="scrollPage"/>
+          <include name="initializeBrowser"/>
+          <include name="getGoogleLink"/>
         </methods>
-      </class> <!-- javascript.PageScroll -->
+      </class> <!-- scripts.FindAllGoogleLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
