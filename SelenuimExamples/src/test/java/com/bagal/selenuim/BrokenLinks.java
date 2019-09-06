@@ -24,18 +24,9 @@ public class BrokenLinks extends LoadableComponent<BrokenLinks> {
 
 	@Test
 	public void brokenLinkTest() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\eclipse-workspace\\SelenuimExamples\\src\\main\\java\\com\\bagal\\resources\\chromedriver32.exe");
-		driver = new ChromeDriver();
-		
-		WebDriverWait wait  = new WebDriverWait(driver, 10);
-		WebElement element = driver.findElement(By.id(""));
-		Select select = new Select(element);
-		Alert alert = driver.switchTo().alert();
-		
-		
+		driver = new ChromeDriver();		
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com");
+		driver.get("http://www.qaclickacademy.com/practice.php");
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 
@@ -47,18 +38,17 @@ public class BrokenLinks extends LoadableComponent<BrokenLinks> {
 
 	public void checkLinkStatus(String urllink) {
 		try {
-			
-			URL url = new URL(urllink);
-			HttpURLConnection http = (HttpURLConnection) url.openConnection();
-			
-			http.setConnectTimeout(3000);
-			http.connect();
-			
-			if (http.getResponseCode() == 200)
-				System.out.println("Message : " + http.getResponseMessage());
-			
-			if (http.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND)
-				System.out.println("Message : " + http.getResponseMessage());
+				URL url = new URL(urllink);
+				HttpURLConnection http = (HttpURLConnection)url.openConnection();
+				
+				http.setConnectTimeout(3000);
+				http.connect();
+				
+				if(http.getResponseCode() == 200)
+					System.out.println("Message  : "+http.getResponseMessage());
+				
+				if(http.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND)
+					System.out.println("broken link : "+http.getResponseMessage());
 			
 		} catch (MalformedURLException e) {
 			e.printStackTrace();

@@ -13,7 +13,7 @@ public class FindAllGoogleLinks {
 	WebDriver driver;
   @BeforeMethod
   public void initializeBrowser() {
-	  System.setProperty("webdriver.gecko.driver", "test\\resources\\geckodriver.exe");
+	  //System.setProperty("webdriver.gecko.driver", "test\\resources\\geckodriver.exe");
 		driver = new FirefoxDriver();
   }
   @Test
