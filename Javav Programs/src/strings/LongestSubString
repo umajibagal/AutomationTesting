@@ -1,0 +1,44 @@
+package strings;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+
+public class LongestSubString {
+	public static void main(String[] args) {
+
+		String s = "pwkwretyrew";
+
+		int left = 0;
+		int right = 0;
+
+		int max = 0;
+
+		LinkedHashSet<Character> charSet = new LinkedHashSet<Character>();
+		LinkedHashMap<String, Integer> allSubstring = new LinkedHashMap<>();
+		int f = 0;
+		while (right < s.length()) {
+			if (!charSet.contains(s.charAt(right))) {
+				charSet.add(s.charAt(right));
+				right++;
+				max = Math.max(charSet.size(), max);
+				f = 1;
+			} else {
+				if (f == 1) {
+					StringBuffer t = new StringBuffer();
+					for (Character character : charSet) {
+						 t.append(character);
+					}
+
+					System.out.println(t);
+					allSubstring.put(t.toString(), t.length());
+					f = 0;
+				}
+				charSet.remove(s.charAt(left));
+				left++;
+			}
+		}
+		System.out.println(allSubstring);
+		System.out.println("max : " + max);
+	}
+
+}
