@@ -1,0 +1,46 @@
+package strings;
+
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
+public class duplicateOccurenceDescen {
+	public static void main(String[] args) {
+		System.out.println(frequencyOcc("cccaaaa"));
+	}
+
+	public static String frequencyOcc(String str) {
+
+		if (str == null || str.length() == 0)
+			return str.toString();
+
+		HashMap<Character, Integer> charCount = new HashMap<>();
+
+		for (char ch : str.toCharArray()) {
+			charCount.put(ch, charCount.getOrDefault(ch, 0) + 1);
+		}
+
+		PriorityQueue<Character> charPriorityQueue = new PriorityQueue<>((a,b)-> b - a);
+
+		for (char c : charCount.keySet()) {
+			charPriorityQueue.add(c);
+		}
+
+		System.out.println(charCount);
+
+		System.out.println(charPriorityQueue);
+		
+		StringBuffer result = new StringBuffer();
+		
+		while(!charPriorityQueue.isEmpty()) {
+			char ch = charPriorityQueue.remove();
+			System.out.println(ch);
+			int count = charCount.get(ch);
+			for (int i = 0; i < count; i++) {
+				result.append(ch);
+			}
+			
+		}
+			
+		return result.toString();
+	}
+}
