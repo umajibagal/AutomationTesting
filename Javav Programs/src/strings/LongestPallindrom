@@ -1,0 +1,28 @@
+package strings;
+
+public class LongestPallindrom {
+	public static void main(String[] args) {
+		String s = "abccccddb";
+		System.out.println("longest pallindrom : "+longestPallindrom(s));
+	}
+
+	public static int longestPallindrom(String s) {
+		
+		int[] char_counts = new int[128];
+		int res=0;
+		for (char i : s.toCharArray()) {
+			char_counts[i]++;
+			
+		}
+		
+		for (int i : char_counts) {
+			
+			res += i /2 * 2 ;
+			
+			if(res%2 ==0 && i%2==1) {
+				res+=1;
+			}
+		}
+		return res;
+	}
+}
